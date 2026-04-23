@@ -15,6 +15,7 @@ export function ContactSection() {
       >
         <p className="font-mono text-sm tracking-widest text-foreground/50 uppercase mb-4">Контакты</p>
         <p className="font-sans text-3xl font-light text-foreground/70">Скоро здесь будет что-то интересное</p>
+        <p className="font-mono text-6xl font-black tracking-widest text-foreground mt-6">soon...</p>
       </div>
     </section>
   )
