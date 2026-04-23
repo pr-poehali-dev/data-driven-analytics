@@ -15,32 +15,27 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Возможности
+            О нас
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Всё для командной работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Кто мы такие</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Совместное редактирование",
-              description: "Несколько участников работают над документом одновременно — изменения видны в реальном времени",
+              title: "РЕЙТИ 2Х",
+              description: "",
               direction: "top",
             },
             {
-              title: "История версий",
-              description: "Каждое изменение сохраняется. Откатитесь к любой версии в один клик",
+              title: "ДРУЖНЫЙ И ОТЗЫВЧИВЫЙ РАЗРАБОТЧИК",
+              description: "",
               direction: "right",
             },
             {
-              title: "Комментарии и задачи",
-              description: "Оставляйте комментарии прямо в тексте, назначайте задачи коллегам",
+              title: "КИТЫ",
+              description: "",
               direction: "left",
-            },
-            {
-              title: "Доступ и безопасность",
-              description: "Гибкие права доступа: просмотр, комментирование или редактирование для каждого участника",
-              direction: "bottom",
             },
           ].map((service, i) => (
             <ServiceCard key={i} service={service} index={i} isVisible={isVisible} />
