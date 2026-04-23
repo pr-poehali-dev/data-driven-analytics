@@ -269,6 +269,9 @@ export default function Index() {
                 Документы для всей команды
               </span>
             </h1>
+            <div className="mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-100 text-center">
+              <p className="font-mono text-sm tracking-widest text-foreground/70 uppercase">PODOMRUST 266 devblog BY DVL</p>
+            </div>
             <p className="mb-8 max-w-xl animate-in fade-in slide-in-from-bottom-4 text-lg leading-relaxed text-foreground/90 duration-1000 delay-200 md:text-xl">
               <span className="text-pretty">
                 Создавайте, редактируйте и согласовывайте документы вместе — в реальном времени, без потери версий и лишних переписок.
