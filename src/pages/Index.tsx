@@ -216,15 +216,14 @@ export default function Index() {
           isLoaded ? "opacity-100" : "opacity-0"
         }`}
       >
-        <button
-          onClick={() => scrollToSection(0)}
+        <a
+          href="https://vk.com/vault38poddom"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-2 transition-transform hover:scale-105"
         >
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-foreground/15 backdrop-blur-md transition-all duration-300 hover:scale-110 hover:bg-foreground/25">
-            <span className="font-sans text-xl font-bold text-foreground">D</span>
-          </div>
-          <span className="font-sans text-xl font-semibold tracking-tight text-foreground">DocSpace</span>
-        </button>
+          <span className="font-sans text-xl font-semibold tracking-tight text-foreground">poddom</span>
+        </a>
 
         <div className="hidden items-center gap-8 md:flex">
           {["Главная", "Работы", "Услуги"].map((item, index) => (
