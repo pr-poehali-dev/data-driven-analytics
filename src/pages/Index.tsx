@@ -271,7 +271,7 @@ export default function Index() {
             </h1>
             <div className="mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-100 text-center">
               <p className="font-mono text-sm tracking-widest text-foreground/70 uppercase">PODOMRUST 266 devblog BY DVL</p>
-              <p className="font-sans font-black tracking-tight text-foreground leading-none" style={{fontSize: "clamp(4rem, 18vw, 14rem)"}}>PODOMRUST</p>
+              <p className="font-sans font-black tracking-tight text-foreground leading-none" style={{fontSize: "clamp(2rem, 8vw, 6rem)"}}>PODOMRUST</p>
             </div>
             <p className="mb-8 max-w-xl animate-in fade-in slide-in-from-bottom-4 text-lg leading-relaxed text-foreground/90 duration-1000 delay-200 md:text-xl">
               <span className="text-pretty">
