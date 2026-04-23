@@ -264,11 +264,7 @@ export default function Index() {
             <div className="mb-4 inline-block animate-in fade-in slide-in-from-bottom-4 rounded-full border border-foreground/20 bg-foreground/15 px-4 py-1.5 backdrop-blur-md duration-700">
               <p className="font-mono text-xs text-foreground/90">Совместная работа с документами</p>
             </div>
-            <h1 className="mb-6 animate-in fade-in slide-in-from-bottom-8 font-sans text-6xl font-light leading-[1.1] tracking-tight text-foreground duration-1000 md:text-7xl lg:text-8xl">
-              <span className="text-balance">
-                Документы для всей команды
-              </span>
-            </h1>
+
             <div className="mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-100 text-center">
               <p className="font-mono text-sm tracking-widest text-foreground/70 uppercase">PODOMRUST 266 devblog BY DVL</p>
               <p className="font-sans font-black tracking-tight text-foreground leading-none" style={{fontSize: "clamp(2rem, 8vw, 6rem)"}}>PODOMRUST</p>
