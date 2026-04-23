@@ -12,6 +12,7 @@ export default function Index() {
   const scrollContainerRef = useRef<HTMLDivElement>(null)
   const [currentSection, setCurrentSection] = useState(0)
   const [isLoaded, setIsLoaded] = useState(false)
+  const [showDevBanner, setShowDevBanner] = useState(false)
   const touchStartY = useRef(0)
   const touchStartX = useRef(0)
   const shaderContainerRef = useRef<HTMLDivElement>(null)
@@ -277,14 +278,20 @@ export default function Index() {
               <MagneticButton
                 size="lg"
                 variant="primary"
-                onClick={() => scrollToSection(4)}
+                onClick={() => { setShowDevBanner(true); setTimeout(() => setShowDevBanner(false), 4000) }}
               >
-                Попробовать бесплатно
+                Начало проекта
               </MagneticButton>
               <MagneticButton size="lg" variant="secondary" onClick={() => scrollToSection(2)}>
                 Возможности
               </MagneticButton>
             </div>
+            {showDevBanner && (
+              <div className="mt-6 animate-in fade-in slide-in-from-bottom-4 inline-flex items-center gap-3 rounded-xl border border-foreground/20 bg-foreground/10 px-5 py-3 backdrop-blur-md duration-500">
+                <div className="h-2 w-2 animate-pulse rounded-full bg-amber-400" />
+                <span className="font-mono text-sm text-foreground/90">Проект в разработке</span>
+              </div>
+            )}
           </div>
 
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-in fade-in duration-1000 delay-500">
