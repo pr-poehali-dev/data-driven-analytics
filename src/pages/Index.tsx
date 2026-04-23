@@ -271,7 +271,7 @@ export default function Index() {
             </div>
             <p className="mb-8 max-w-xl animate-in fade-in slide-in-from-bottom-4 text-lg leading-relaxed text-foreground/90 duration-1000 delay-200 md:text-xl">
               <span className="text-pretty">
-                Создавайте, редактируйте и согласовывайте документы вместе — в реальном времени, без потери версий и лишних переписок.
+                Иркутск андерграунд
               </span>
             </p>
             <div className="flex animate-in fade-in slide-in-from-bottom-4 flex-col gap-4 duration-1000 delay-300 sm:flex-row sm:items-center">
